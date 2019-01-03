@@ -1,4 +1,4 @@
-package com.vtg.SpringDataRest.DemoSpringDataRest;
+package com.vtg.SpringProject.DemoSpringRest;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,7 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class DemoSpringDataRestApplicationTests {
+public class DemoSpringRestApplicationTests {
 
 	@Test
 	public void contextLoads() {

@@ -1,13 +1,13 @@
-package com.vtg.SpringDataRest.DemoSpringDataRest;
+package com.vtg.SpringProject.DemoSpringRest;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DemoSpringDataRestApplication {
+public class DemoSpringRestApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(DemoSpringDataRestApplication.class, args);
+		SpringApplication.run(DemoSpringRestApplication.class, args);
 	}
 
 }
