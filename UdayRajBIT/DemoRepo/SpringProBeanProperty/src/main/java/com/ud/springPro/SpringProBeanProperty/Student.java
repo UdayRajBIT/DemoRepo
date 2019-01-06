@@ -7,6 +7,7 @@ import org.springframework.stereotype.Component;
 @ConfigurationProperties("student")
 public class Student {
 
+	
 	int roll;
 	String name;
 	String mobno;
@@ -36,5 +37,8 @@ public class Student {
 		this.address = address;
 	}
 	
-	
+	@Override
+	public String toString() {
+		return "Student [roll=" + roll + ", name=" + name + ", mobno=" + mobno + ", address=" + address + "]";
+	}
 }
